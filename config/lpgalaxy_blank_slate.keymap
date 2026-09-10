@@ -1,4 +1,5 @@
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 &mt { flavor = "tap-preferred"; };
@@ -22,6 +23,51 @@
 &kp TAB    &kp A     &kp S     &kp D   &kp F   &kp G      &kp H      &kp J   &kp K      &kp L     &kp SEMI  &kp APOS
 &kp LSHFT  &kp Z     &kp X     &kp C   &kp V   &kp B      &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp ENTER
 &kp LCTRL  &kp LALT  &kp LGUI  &trans  &trans  &kp SPACE  &kp SPACE  &trans  &trans     &kp RGUI  &kp RALT  &kp RCTRL
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&trans  &kp C_BRI_DEC  &kp C_BRI_INC   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE    &kp INS         &kp HOME        &kp PG_DN          &kp PG_UP        &kp END    &trans
+&trans  &kp TAB        &kp K_PREVIOUS  &kp K_PLAY_PAUSE   &kp K_NEXT       &kp DEL       &kp BACKSPACE   &kp LEFT        &kp DOWN           &kp UP           &kp RIGHT  &trans
+&trans  &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4  &kp CAPS        &kp SCROLLLOCK  &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &kp ENTER  &trans
+&trans  &trans         &trans          &trans             &trans           &trans        &bt BT_CLR_ALL  &trans          &studio_unlock     &trans           &trans     &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans     &trans  &trans  &trans  &trans  &trans   &trans    &trans     &trans     &kp BSLH      &kp SQT       &trans
+&kp LSHFT  &trans  &trans  &trans  &trans  &kp DEL  &kp BSPC  &kp MINUS  &kp EQUAL  &kp LS(LPAR)  &kp LS(RPAR)  &trans
+&trans     &trans  &trans  &trans  &trans  &trans   &trans    &trans     &kp GRAVE  &kp LBKT      &kp RBKT      &kp RET
+&trans     &trans  &trans  &trans  &trans  &trans   &trans    &trans     &trans     &trans        &trans        &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
