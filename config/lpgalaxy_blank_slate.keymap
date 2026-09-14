@@ -49,7 +49,7 @@
 &trans  &kp C_BRI_DEC  &kp C_BRI_INC   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE    &kp INS         &kp HOME        &kp PG_DN          &kp PG_UP        &kp END    &trans
 &trans  &kp TAB        &kp K_PREVIOUS  &kp K_PLAY_PAUSE   &kp K_NEXT       &kp DEL       &kp BACKSPACE   &kp LEFT        &kp DOWN           &kp UP           &kp RIGHT  &trans
 &trans  &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4  &kp CAPS        &kp SCROLLLOCK  &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &kp ENTER  &trans
-&trans  &trans         &trans          &trans             &trans           &trans        &bt BT_CLR_ALL  &trans          &studio_unlock     &trans           &trans     &trans
+&trans  &trans         &trans          &trans             &trans           &trans        &bt BT_CLR_ALL  &studio_unlock  &trans             &trans           &trans     &trans
             >;
         };
 
