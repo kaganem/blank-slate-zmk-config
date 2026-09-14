@@ -3,6 +3,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 &mt { flavor = "tap-preferred"; };
+&lt { flavor = "tap-preferred"; };
 
 / {
     combos {
