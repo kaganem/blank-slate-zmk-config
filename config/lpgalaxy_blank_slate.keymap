@@ -19,10 +19,10 @@
 
         main {
             bindings = <
-&none  &kp Q  &kp W  &kp E     &kp R      &kp T  &kp Y  &kp U      &kp I      &kp O    &kp P     &none
-&none  &kp A  &kp S  &kp D     &kp F      &kp G  &kp H  &kp J      &kp K      &kp L    &kp SEMI  &none
-&none  &kp Z  &kp X  &kp C     &kp V      &kp B  &kp N  &kp M      &kp COMMA  &kp DOT  &kp FSLH  &none
-&none  &none  &none  &kp LCMD  &kp SPACE  &mo 1  &mo 2  &kp SPACE  &mo 3      &none    &none     &none
+&none  &kp Q        &kp W       &kp E        &kp R         &kp T        &kp Y  &kp U  &kp I      &kp O    &kp P            &none
+&none  &mt A LSHFT  &mt S LALT  &mt D LCTRL  &kp F         &kp G        &kp H  &kp J  &kp K      &kp L    &mt SEMI RSHIFT  &none
+&none  &kp Z        &kp X       &kp C        &kp V         &kp B        &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH         &none
+&none  &none        &none       &none        &kp LEFT_GUI  &lt 1 SPACE  &mo 2  &mo 3  &none      &none    &none            &none
             >;
         };
 
@@ -46,10 +46,10 @@
 
         nav {
             bindings = <
-&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_VOLUME_DOWN  &kp K_VOL_UP  &kp K_MUTE    &kp INS         &kp HOME        &kp PG_DN          &kp PG_UP        &kp END    &trans
-&trans  &kp TAB               &kp K_PREVIOUS        &kp K_PLAY_PAUSE   &kp K_NEXT    &kp DEL       &kp BACKSPACE   &kp LEFT        &kp DOWN           &kp UP           &kp RIGHT  &trans
-&trans  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4  &kp CAPS        &kp SCROLLLOCK  &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &kp ENTER  &trans
-&trans  &trans                &trans                &trans             &trans        &trans        &bt BT_CLR_ALL  &studio_unlock  &trans             &trans           &trans     &trans
+&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_VOLUME_DOWN  &kp K_VOL_UP    &kp K_MUTE    &kp INS         &kp HOME        &kp PG_DN          &kp PG_UP        &kp END    &trans
+&trans  &kp TAB               &kp K_PREVIOUS        &kp K_PLAY_PAUSE   &kp K_NEXT      &kp DEL       &kp BACKSPACE   &kp LEFT        &kp DOWN           &kp UP           &kp RIGHT  &trans
+&trans  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2       &bt BT_SEL 3    &bt BT_SEL 4  &kp CAPS        &kp SCROLLLOCK  &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &kp ENTER  &trans
+&trans  &trans                &trans                &trans             &studio_unlock  &trans        &bt BT_CLR_ALL  &none           &trans             &trans           &trans     &trans
             >;
         };
 
