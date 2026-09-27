@@ -48,10 +48,10 @@
 
         nav {
             bindings = <
-&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_VOLUME_DOWN  &kp K_VOL_UP  &kp K_MUTE  &kp INS        &kp HOME        &kp PG_DN          &kp PG_UP        &kp END    &trans
-&trans  &kp TAB               &kp K_PREVIOUS        &kp K_PLAY_PAUSE   &kp K_NEXT    &kp DEL     &kp BACKSPACE  &kp LEFT        &kp DOWN           &kp UP           &kp RIGHT  &trans
-&trans  &kp C_BRI_DEC         &kp C_BRI_INC         &kp C_BRI_UP       &kp C_BRI_DN  &trans      &kp CAPS       &kp SCROLLLOCK  &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &kp ENTER  &trans
-&trans  &trans                &trans                &trans             &tog 5        &trans      &trans         &trans          &trans             &trans           &trans     &trans
+&trans  &kp TAB    &trans          &kp K_VOLUME_DOWN  &kp K_VOL_UP   &kp K_MUTE             &kp INS        &kp HOME        &kp PG_DN          &kp PG_UP        &kp END    &trans
+&trans  &kp LSHFT  &kp K_PREVIOUS  &kp K_PLAY_PAUSE   &kp K_NEXT     &kp DEL                &kp BACKSPACE  &kp LEFT        &kp DOWN           &kp UP           &kp RIGHT  &trans
+&trans  &kp LCTRL  &trans          &kp C_BRI_DEC      &kp C_BRI_INC  &kp C_BRIGHTNESS_AUTO  &kp CAPS       &kp SCROLLLOCK  &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &kp ENTER  &trans
+&trans  &trans     &trans          &trans             &tog 5         &trans                 &trans         &trans          &trans             &trans           &trans     &trans
             >;
         };
 
