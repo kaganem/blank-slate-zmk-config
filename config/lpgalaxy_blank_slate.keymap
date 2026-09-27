@@ -39,10 +39,10 @@
 
         sym {
             bindings = <
-&trans  &trans      &trans  &trans  &trans  &trans   &trans    &trans     &trans     &kp BSLH      &kp SQT       &trans
-&trans  &kp LSHIFT  &trans  &trans  &trans  &kp DEL  &kp BSPC  &kp MINUS  &kp EQUAL  &kp LS(LPAR)  &kp LS(RPAR)  &trans
-&trans  &trans      &trans  &trans  &trans  &trans   &trans    &trans     &kp GRAVE  &kp LBKT      &kp RBKT      &kp RET
-&trans  &trans      &trans  &trans  &trans  &trans   &trans    &trans     &trans     &trans        &trans        &trans
+&trans  &trans      &trans  &trans  &trans  &trans   &trans    &trans     &trans            &kp BSLH           &kp SQT       &trans
+&trans  &kp LSHIFT  &trans  &trans  &trans  &kp DEL  &kp BSPC  &kp MINUS  &kp EQUAL         &kp LS(LPAR)       &kp LS(RPAR)  &trans
+&trans  &trans      &trans  &trans  &trans  &trans   &trans    &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RETURN    &trans
+&trans  &trans      &trans  &trans  &trans  &trans   &trans    &trans     &trans            &trans             &trans        &trans
             >;
         };
 
