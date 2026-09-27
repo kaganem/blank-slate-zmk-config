@@ -51,7 +51,7 @@
 &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_VOLUME_DOWN  &kp K_VOL_UP  &kp K_MUTE  &kp INS        &kp HOME        &kp PG_DN          &kp PG_UP        &kp END    &trans
 &trans  &kp TAB               &kp K_PREVIOUS        &kp K_PLAY_PAUSE   &kp K_NEXT    &kp DEL     &kp BACKSPACE  &kp LEFT        &kp DOWN           &kp UP           &kp RIGHT  &trans
 &trans  &trans                &trans                &trans             &trans        &trans      &kp CAPS       &kp SCROLLLOCK  &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &kp ENTER  &trans
-&trans  &trans                &trans                &trans             &mo 5         &trans      &trans         &trans          &trans             &trans           &trans     &trans
+&trans  &trans                &trans                &trans             &tog 5        &trans      &trans         &trans          &trans             &trans           &trans     &trans
             >;
         };
 
@@ -69,7 +69,7 @@
 &trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &trans          &trans  &trans  &trans  &trans  &trans
 &trans  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4   &trans          &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans         &trans         &trans         &trans         &trans          &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans         &trans         &mo 5          &bt BT_CLR     &studio_unlock  &mo 5   &trans  &trans  &trans  &trans
+&trans  &trans         &trans         &trans         &tog 5         &bt BT_CLR     &studio_unlock  &none   &trans  &trans  &trans  &trans
             >;
         };
     };
